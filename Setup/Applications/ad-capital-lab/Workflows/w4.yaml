@@ -42,7 +42,7 @@ phases:
         executeWithPreviousSteps: false
         hostnameTemplate: ${host.hostName}
         tierId: '14'
-        timeDuration: '10'
+        timeDuration: 15
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up
